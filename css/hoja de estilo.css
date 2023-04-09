@@ -11,4 +11,28 @@ header{
 	height: 60px;
 	margin-left: 20px;
 }
+body{
+	background-color: #f1ecec;
+}
+.jugadores {
+	border-collapse: collapse;
+	border: 1px solid grey;
+	height: 10px;
+  }
+  
+  .jugadores td, .jugadores th {
+	border: 1px solid grey;
+	padding: 9px;
+	
+  }
+  .carousel-item{
+	width: 	350px;
+	height: 350px;
 
+  }
+  .list-group-item {
+	background-color: rgb(215, 215, 228);
+  }
+.card-body {
+  background-color: rgb(215, 215, 228);
+}
