@@ -1,0 +1,26 @@
+body {
+    background-image: url("Proyecto-wed/img/Backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+	text-align: center;
+}
+
+form {
+	background:blanchedalmond;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+p {
+	font-weight: bold;
+}
+
+
+
+input[type=radio] {
+	margin-left: 10px;}
+
+
