@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/hoja_de_stilo_quiz.css">
 	<link rel="website icon" type="png"
 	href="img/SKT.png">
+
+	
 </head>
 <body>
 	<header>
@@ -32,6 +34,9 @@
 	</header>
 	<h1>Quiz sobre Faker</h1>
 
+	<main class="container mt-5">
+		<div class="row">
+			<div class="col-md-8">
 	<form>
 		<p>1. ¿Cuál es el nombre real de Faker?</p>
 		<input type="radio" name="q1" value="a">a. Lee Min-ho<br>
@@ -86,6 +91,7 @@
         
 
         <input type="button" value="Comprobar respuestas" onclick="comprobar()">
+		
 </form>
 
 <p id="resultado"></p>
@@ -94,6 +100,8 @@
 	function comprobar() {
 		var puntuacion = 0;
 
+
+		document.getElementById("resultado").innerHTML = "Has obtenido " + puntuacion + " puntos.";
 		if (document.querySelector('input[name="q1"]:checked').value == "b") {
 			puntuacion++;
 		}
@@ -133,13 +141,12 @@
 		if (document.querySelector('input[name="q10"]:checked').value == "b") {
 			puntuacion++;
 		}
-
+		
         
 
-		document.getElementById("resultado").innerHTML = "Has obtenido " + puntuacion + " puntos.";
+		
 	}
 </script>
-
 </main>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

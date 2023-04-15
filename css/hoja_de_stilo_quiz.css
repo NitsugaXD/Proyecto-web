@@ -1,24 +1,30 @@
 body {
-    background-image: url("Proyecto-wed/img/Backg.jpg");
+    background-image: url(../img/202323.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-h1 {
-	text-align: center;
-}
+  h1 {
+	animation: animacionEncabezado 1s infinite;
+	text-align: center
+  }
+  
+  @keyframes animacionEncabezado {
+	from { color: #333; }
+	to { color: #5d2de2; }
+  }
+  
 
 form {
-	background:blanchedalmond;
-	padding: 20px;
-	border-radius: 5px;
+	
+	background-color: #f1ecec;
+	background-size: cover;
+	background-position: center;
 }
 
 p {
 	font-weight: bold;
 }
-
-
 
 input[type=radio] {
 	margin-left: 10px;}
