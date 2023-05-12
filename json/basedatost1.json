@@ -1,0 +1,40 @@
+{
+"T1": {
+        "100":{
+            "nombre":"Choi Wo-je (최우제)",
+            "carril":"Superior",
+            "nick":"Zeus",
+            "pais":"Corea del Sur",
+            "foto":"https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/a/ae/T1_Zeus_2022_Split_2.png/revision/latest?cb=20220619004502"
+        },
+        "101":{
+            "nombre":"Moon Hyeon-joon (문현준)",
+            "carril":"Jungla",
+            "nick":"Oner",
+            "pais":"Corea del Sur",
+            "foto":"https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1a/T1_Oner_2022_Split_2.png/revision/latest?cb=20220619004417"
+        },
+        "103":{
+            "nombre":"Lee Sang-hyeok (이상혁)",
+            "carril":"Medio",
+            "nick":"Faker",
+            "pais":"Corea del Sur",
+            "foto":"https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e7/T1_Faker_2022_Split_2.png/revision/latest?cb=20220619004304"
+        },
+        "104":{
+            "nombre":"Lee Min-hyeong (이민형)",
+            "carril":"Tirador",
+            "nick":"Gumayusi",
+            "pais":"Corea del Sur",
+            "foto":"https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/38/T1_Gumayusi_2022_Split_2.png/revision/latest?cb=20220619004340"
+        },
+        "105":{
+            "nombre":"Ryu Min-seok (류민석)",
+            "carril":"Soporte",
+            "nick":"Keria",
+            "pais":"Corea del Sur",
+            "foto":"https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/cd/T1_Keria_2022_Split_2.png/revision/latest?cb=20220619004349"
+        }
+        
+    }
+}
