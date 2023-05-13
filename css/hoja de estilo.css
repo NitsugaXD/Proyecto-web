@@ -20,7 +20,7 @@ body{
 	height: 10px;
   }
   
-  .jugadores td, .jugadores th {
+.jugadores td, .jugadores th {
 	border: 1px solid grey;
 	padding: 9px;
 	
