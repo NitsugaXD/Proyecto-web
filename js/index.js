@@ -3,12 +3,12 @@ function Red(x) {
       x.style.background="Red";
     x.style.color="White";
 }
-
+//funcion de javascript para volver a la normalidad las preguntas del quiz
 function Black(x) {
     x.style.background="#f1ecec";
     x.style.color="Black";
 }
-
+//funcion de jquery para consumir la api
 $("#enviar").click(function () {
   let dataPLayers;
   let header = "<tr> <th>Posición</th> <th>Nombre</th> <th>NickName</th> <th>Nacionalidad</th> <th>Foto</th> </tr>"
@@ -21,9 +21,9 @@ $("#enviar").click(function () {
       $("#jugadoresHeader").append(header);
       $("#jugadores").empty();
       $("#jugadores").append(dataPLayers);
-
     });
 });
+//funcion de jquery valida las respuestas
 $(document).ready(function() {
   $('#quizForm').validate({
     submitHandler: function(form) {
