@@ -1,3 +1,4 @@
+//funcion de javascript para colorear las preguntas del quiz
 function Red(x) {
       x.style.background="Red";
     x.style.color="White";
@@ -67,7 +68,7 @@ $(document).ready(function() {
       }
       
       // Mostrar la alerta con el número de respuestas correctas
-      alert('Respuestas correctas: ' + correctAnswers);
+      Swal.fire('Puntos obtenidos: '+correctAnswers)
       
       form.reset(); // Reiniciar el formulario si es necesario pero obligatorio 
     }
