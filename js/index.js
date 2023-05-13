@@ -68,3 +68,57 @@ $("#enviar").click(function(){
       });
     });
   });
+
+
+$(document).ready(function() {
+  $('#quizForm').validate({
+    submitHandler: function(form) {
+      var totalQuestions = 10; // Número total de preguntas
+      var correctAnswers = 0; // Contador de respuestas correctas
+      
+      // Validar cada pregunta
+      for (var i = 1; i <= totalQuestions; i++) {
+        var selectedOption = $('input[name="question' + i + '"]:checked').val();
+        
+        if (selectedOption === 'b' && i === 1) {
+          correctAnswers++;
+        }
+        else if (selectedOption === 'b' && i === 2) {
+          correctAnswers++;
+        } 
+        else if (selectedOption === 'b' && i === 3) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'b' && i === 4) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'a' && i === 5) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'b' && i === 6) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'c' && i === 7) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'b' && i === 8) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'a' && i === 9) {
+            correctAnswers++;
+          } 
+          else if (selectedOption === 'c' && i === 10) {
+            correctAnswers++;
+          } 
+
+      }
+      
+      // Mostrar la alerta con el número de respuestas correctas
+      alert('Respuestas correctas: ' + correctAnswers);
+      
+      form.reset(); // Reiniciar el formulario si es necesario pero obligatorio 
+    }
+  });
+});
+
+
